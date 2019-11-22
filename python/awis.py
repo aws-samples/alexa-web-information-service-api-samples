@@ -19,7 +19,7 @@ import sys, os, base64, hashlib, hmac
 import logging, getopt
 import boto3
 import getpass
-from botocore.vendored import requests
+import requests
 from datetime import datetime
 import time
 from configparser import ConfigParser # pip install configparser
