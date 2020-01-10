@@ -1,0 +1,5 @@
+
+python/.awis.py.credentials
+*.venv
+python/.tool-versions
+python/Makefile

@@ -19,7 +19,7 @@ import sys, os, base64, hashlib, hmac
 import logging, getopt
 import boto3
 import getpass
-from botocore.vendored import requests
+import requests
 from datetime import datetime
 import time
 from configparser import ConfigParser # pip install configparser
@@ -35,7 +35,7 @@ method = 'GET'
 service = 'execute-api'
 log = logging.getLogger( "awis" )
 content_type = 'application/xml'
-local_tz = "America/Los_Angeles"
+local_tz = "America/Chicago"
 
 # ******** LOCAL CREDENTIALS FILE **********
 credentials_file = '.awis.py.credentials'
