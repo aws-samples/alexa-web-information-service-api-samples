@@ -64,7 +64,6 @@ Usage: awis.py [options]
 
   Examples:
      UrlInfo:		awis.py -k 98hu7.... -u User --action urlInfo --options "&ResponseGroup=Rank&Url=sfgate.com"
-     CategoryBrowse:	awis.py -k 98hu7.... -u User --action CategoryBrowse --options "&Descriptions=True&Path=Top%2FArts%2FVideo&ResponseGroup=Categories"
 """ )
 
 ###############################################################################
