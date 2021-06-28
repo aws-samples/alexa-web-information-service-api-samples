@@ -35,7 +35,7 @@ method = 'GET'
 service = 'execute-api'
 log = logging.getLogger( "awis" )
 content_type = 'application/xml'
-local_tz = "America/Los_Angeles"
+local_tz = "America/Chicago"
 
 # ******** LOCAL CREDENTIALS FILE **********
 credentials_file = '.awis.py.credentials'
